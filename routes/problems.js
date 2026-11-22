@@ -1,0 +1,9 @@
+var express = require('express');
+var router = express.Router();
+
+router.get('/', function(req, res, next) {
+  res.send('GET request to problems page');
+});
+
+module.exports = router;
+
